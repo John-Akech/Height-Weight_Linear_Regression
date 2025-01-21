@@ -40,47 +40,79 @@ Execute the cells sequentially in a Jupyter notebook or any Python IDE.
   . Predictions for the test dataset and new height values.
 
 ## Workflow
+
 **1. Data Exploration**
+
   . Load and inspect the dataset.
+  
   . Visualize height vs. weight using a scatter plot.
+  
 **2. Preprocessing**
+
   . Drop non-numerical columns (Gender).
+  
   . Compute correlations and visualize data relationships using a pair plot.
+  
 **3. Train-Test Split**
+
   . Split the dataset into training (75%) and testing (25%) subsets.
+  
 **4. Standardization**
+
   . Standardize the Height values to improve model performance.
+  
 **5. Model Training**
+
   . Train a linear regression model using the Height feature to predict Weight.
+  
 **6. Model Evaluation**
 
     **Evaluate the model using**:
+    
       . Mean Absolute Error (MAE)
+      
       . Mean Squared Error (MSE)
+      
       . R² (Coefficient of Determination)
+      
       . Adjusted R²
+      
     **Perform OLS regression analysis for detailed statistics.**
     
 **7. Prediction**
+
   . Make predictions on the test data.
+  
   . Predict weight for a new height value (e.g., 69 inches).
   
 ## Example Results
+
 # Model Performance
+
   . Mean Absolute Error: 9.72
+  
   . Mean Squared Error: 149.31
+  
   . R-squared: 0.857
+  
   . Adjusted R-squared: 0.857
+  
 # Prediction
+
   . Weight for height 69 inches: 181.65 lbs
   
 ## Acknowledgments
+
 Dataset Source: [Synthetic height-weight dataset]
+
 Model Implementation: Scikit-learn, Statsmodels
+
 Visualizations: Matplotlib, Seaborn
 
 ## References
+
   Scikit-learn Documentation
+  
   Statsmodels Documentation
 
   
